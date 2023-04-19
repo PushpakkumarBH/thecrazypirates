@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif,Playfair Display SC,Ultra,CInzel Decorative,Bowlby One SC;
+  } 
+  
+    .section1 {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+      header{
+        margin-left: 70%;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+  
+  .section2 {
+    background-color: #F5F5F5;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .tagline {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+  .section3 {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+.section4 {
+    background-color: #F5F5F5;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .left-box,
+  .right-box {
+    width: 50%;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .left-box img,
+  .right-box img {
+    width: 100%;
+    justify-content: center;
+  }
+  .left-box{
+    float: left;
+  }
+  .right-box{
+    float: left;
+  }
+    
+.footer{
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+/* Page Schedule CSS */
+.header-logo{
+    padding-left: 0px ;
+}
+.table-container-schedule{
+  border: #333;
+  height:fit-content;
+  width: 80%;
+}
