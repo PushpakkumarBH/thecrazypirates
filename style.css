@@ -67,6 +67,7 @@ body {
   
   .table-container {
     overflow-x: auto;
+    width: 100%;
   }
   
   table {
@@ -77,7 +78,12 @@ body {
   table th,
   table td {
     border: 1px solid black;
-    padding: 10px;
+    padding: 10vh;
+  }
+table tr,
+  table td {
+    width: 100%;
+    padding: 10vh;
   }
   .section3 h2,
   .section4 h2 {
@@ -94,7 +100,9 @@ body {
     text-align: center;
     height:100vh;
   }
-  
+.section4 div{
+  width: 100%;
+}
   .left-box,
   .right-box {
     width: 50%;
