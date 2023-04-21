@@ -54,7 +54,7 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url('https://www.royalchallengers.com/themes/custom/rcbbase/images/stadium/stadium-new.png');
+  background-image: url('/Users/pushpak/Downloads/tcp/bg.png');
 }
 
 .logo img {
