@@ -54,7 +54,7 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url('/Users/pushpak/Downloads/tcp/bg.png');
+  background-image: url('https://github.com/PushpakkumarBH/thecrazypirates/blob/main/bg.png?raw=true');
 }
 
 .logo img {
