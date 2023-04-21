@@ -16,7 +16,15 @@ a {
 }
 
 header {
-  margin-left: 70%;
+  width:100%;
+  height: 5vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-head{
+  float: right;
+  padding: 5px;
 }
 
 nav ul {
@@ -43,10 +51,10 @@ nav a:hover {
   background-color: #F5F5F5;
   padding: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background-image: url('https://www.royalchallengers.com/themes/custom/rcbbase/images/stadium/stadium-new.png');
 }
 
 .logo img {
@@ -88,7 +96,8 @@ table td {
 }
 
 .section3 h2,
-.section4 h2 {
+.section4 h2 ,
+.section2 h1{
   font-size: 10vh;
 }
 
@@ -171,7 +180,8 @@ table td {
   }
 
   .section3 h2,
-  .section4 h2 {
+  .section4 h2 ,
+  .section2 h1{
     font-size: 6vh;
   }
 
