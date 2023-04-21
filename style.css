@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height:100vh;
   }
   
   .logo img {
@@ -54,6 +55,7 @@ body {
   .section3 {
     padding: 50px;
     text-align: center;
+    height:100vh;
   }
   
   .table-container {
@@ -79,6 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height:100vh;
   }
   
   .left-box,
