@@ -61,7 +61,14 @@ nav a:hover {
   width: 150px;
   height: 150px;
 }
-
+.spl-logo{
+  background-image: url(https://media.giphy.com/media/cAC7V11MDbl0ZXw2Eh/giphy.gif);
+background-size: cover;
+  color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+}
 .tagline {
   text-align: center;
   margin-top: 30px;
