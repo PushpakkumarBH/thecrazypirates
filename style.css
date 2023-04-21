@@ -1,8 +1,15 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif,Playfair Display SC,Ultra,CInzel Decorative,Bowlby One SC;
+    font-family: Arial, sans-serif;
+    color: black;
   } 
-  
+  a {
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }    
     .section1 {
         background-color: #333;
         color: white;
@@ -73,7 +80,7 @@ body {
     padding: 10px;
   }
 
-.section4 {
+  .section4 {
     background-color: #F5F5F5;
     padding: 50px;
     display: flex;
@@ -81,28 +88,23 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height:100vh;
+    height: 100vh;
   }
   
   .left-box,
   .right-box {
     width: 50%;
     margin: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .left-box img,
   .right-box img {
-    width: 100%;
-    justify-content: center;
+    max-width: 100%;
   }
-  .left-box{
-    float: left;
-  }
-  .right-box{
-    float: left;
-  }
-    
+   
 .footer{
     background-color: #ffffff;
     padding: 50px;
