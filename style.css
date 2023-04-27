@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Almendra SC', serif;
   color: black;
 }
 
@@ -10,8 +10,7 @@ a {
 }
 
 .section1 {
-  background-color: #333;
-  color: white;
+  /* background-color: #333; */
   padding: 20px;
 }
 
@@ -53,21 +52,21 @@ nav a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
-  background-image: url('https://github.com/PushpakkumarBH/thecrazypirates/blob/main/bg.png?raw=true');
+  height: 80vh;
+  background-image: url('bg.png');
 }
 
 .logo img {
-  width: 150px;
-  height: 150px;
+  width: 10rem;
+  height: 10rem;
 }
 .spl-logo{
-  background-image: url(https://media.giphy.com/media/cAC7V11MDbl0ZXw2Eh/giphy.gif);
-background-size: cover;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDc0YjQzODcwMTQ2Mzc2ZjMxOTRhOTkzMWU2M2UzZDAwZDA5MzBkMyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/cAC7V11MDbl0ZXw2Eh/giphy-downsized.gif);
+  background-size: cover;
   color: transparent;
--moz-background-clip: text;
--webkit-background-clip: text;
-text-transform: uppercase;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  /* text-transform: uppercase; */
 }
 .tagline {
   text-align: center;
@@ -124,8 +123,8 @@ table td {
 }
 
 .left-box,
-.right-box {
-  width: 50%;
+.right-box,
+.down-box {
   margin: 20px;
   flex-basis: 50%;
   justify-content: center;
@@ -133,9 +132,11 @@ table td {
 }
 
 .left-box img,
-.right-box img {
+.right-box img ,
+.down-box img{
   max-width: 100%;
   justify-content: center;
+  /* height: 8rem; */
 }
 
 .left-box {
@@ -159,18 +160,20 @@ table td {
 /* Media queries for smaller screens */
 @media only screen and (max-width: 600px) {
   .logo img {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
   }
 
   .tagline h1 {
-    font-size: 24px;
+    font-size: 13rem;
   }
 
   .tagline p {
-    font-size: 16px;
+    font-size: 10rem;
   }
-
+  .spl-logo{
+    font-size: 13rem;
+  }
   .table-container {
     overflow-x: auto;
     width: 100%;
@@ -193,8 +196,8 @@ table td {
   }
 
   .left-box,
-  .right-box {
-    width: 100%;
+  .right-box,
+  .down-box{
     margin: 20px;
     flex-basis: 100%;
     justify-content: center;
