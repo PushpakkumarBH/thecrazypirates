@@ -139,14 +139,6 @@ table td {
   /* height: 8rem; */
 }
 
-.left-box {
-  float: left;
-}
-
-.right-box {
-  float: left;
-}
-
 .footer {
   background-color: #ffffff;
   padding: 50px;
@@ -163,7 +155,6 @@ table td {
     width: 10rem;
     height: 10rem;
   }
-
   .tagline h1 {
     font-size: 13rem;
   }
